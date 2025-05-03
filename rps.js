@@ -201,10 +201,10 @@ function playGame(playerMove) {
         <img class="player-profile-picture" src="Gigachad-Head-Smiling-PNG.png">
         <p class="player-profile-name">You</p>
       </div>
-      <img src="../rps-project/${playerMove}-emoji.png" class="move-img">
+      <img src="${playerMove}-emoji.png" class="move-img">
     </div>
     <div class="player-div">
-      <img src="../rps-project/${computerMove}-emoji.png" class="move-img">
+      <img src="${computerMove}-emoji.png" class="move-img">
       <div class="player-profile-raw">
         <img src="2RQXq9cJRmVou3sA6TNc--1--uem0i.webp" class="computer-profile-picture">
         <p class="computer-profile-name">Computer</p>
