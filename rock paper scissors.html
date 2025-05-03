@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      ROCK PAPER SCISSORS
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rps.css">
+  </head>
+  <body>
+    <div class="main-div">
+      <div>
+        <div class="header-div">
+          <p class="main-header">
+            Rock Paper Scissors
+          </p>
+        </div>
+        <div class="move-div">
+          <button class="move-button" onclick="playGame('rock')">
+            <img class="html-move-img" src="../rps-project/rock-emoji.png">
+          </button>
+      
+      
+          <button class="move-button" onclick="playGame('paper')">
+            <img class="html-move-img" src="../rps-project/PAPER-emoji.png">
+          </button>
+      
+      
+          <button class="move-button" onclick="playGame('scissors')">
+            <img class="html-move-img" src="../rps-project/scissors-emoji.png">
+          </button>
+        </div>
+        
+       
+      
+        <div class="moves-div">
+          <div class="js-moves moves"></div>
+        </div>
+        <div class="result-div">
+          <p class="js-result result"></p>
+        </div>
+        <div class="score-div">
+          <p class="js-score score"></p>
+        </div>
+        
+     
+        
+    
+        <div class="two-buttons-div">
+          <button class="reset-score-button js-reset-score-button">Reset Score</button>
+    
+          <button class="auto-play-button js-auto-play-button">
+            Auto PLay
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+
+    <div class="js-div css-div"></div>
+  </body>
+
+  
+  
+  <script src="rps.js"></script>
+</html>

@@ -1,0 +1,170 @@
+body {
+  background-color: black;
+  font-family: Arial;
+  color: white;
+}
+
+.main-div {
+  display: flex;
+  min-width: 0px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0px;
+  margin: opx;
+}
+
+.header-div,
+.move-div {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 100px;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-header {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 0px;
+
+}
+.result {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 0px;
+}
+
+
+
+.moves-div {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+.moves {
+  font-size: 25px;
+}
+
+.js-html-main {
+  display: flex;
+  align-items: center;
+  column-gap: 70px;
+  justify-content: space-between;
+}
+.player-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+}
+.player-profile-picture {
+  position: relative;
+  margin-bottom: 50px;
+  height: 150px;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+}
+
+.computer-profile-picture {
+  position: relative;
+  margin-bottom: 50px;
+  height: 150px;
+  border-radius: 50%;
+  border-color: white;
+  border-style: solid;
+}
+
+.player-profile-name {
+  font-weight: bold;
+  margin-top: -40px;
+  margin-left: 50px;
+  
+}
+.player-profile-raw {
+  display: flex;
+  flex-direction: column;
+}
+
+.computer-profile-name {
+  font-weight: bold;
+  margin-top: -40px;
+  margin-left: 20px;
+}
+
+
+
+.result-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.two-buttons-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.reset-score-button,
+.auto-play-button {
+  
+  background-color: white;
+  border: none;
+  font-size: 15px;
+  padding: 8px 15px;
+  cursor: pointer;
+
+}
+.move-button {
+  background-color: transparent;
+  height: 120px;
+  width: 120px;
+  border-radius: 60px;
+  border-style: solid;
+  border-color: white;
+  border-width: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.move-img {
+  height: 100px;
+  margin-bottom: 60px;
+}
+
+.html-move-img {
+  height: 50px;
+}
+
+.css-div {
+  align-items: center;
+  justify-self: center;
+  width: 430px;
+  display: flex;
+  margin-top: 10px;
+  background: rgb(0, 0, 0);
+  padding: 10px 5px;
+  padding-left: 10px;
+  column-gap: 10px;
+  margin-top: -210px;
+}
+.yes-button,
+.no-button {
+  padding: 10px 15px;
+}
+
+.score {
+  font-size: 20px;
+  font-weight: bold;
+}
+.score-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
